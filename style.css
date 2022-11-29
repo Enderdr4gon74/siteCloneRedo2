@@ -1,0 +1,82 @@
+:root {
+  --cyan: #09c492;
+  --dark-cyan: #067456;
+  --light: #eaeaea;
+  --review-text: #5b636e;
+  --text: #8f8e98;
+}
+
+.bg-cyan {
+  background-color: var(--cyan);
+}
+
+.bg-light {
+  background-color: var(--light)
+}
+
+.text-cyan {
+  color: var(--cyan);
+}
+
+.bg-image {
+  background: url("./Img/Background_Image.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.w-67 {
+  width: 60%;
+}
+
+.w-30 {
+  width: 37%;
+}
+
+.check-special:checked {
+  background-color: var(--cyan) !important;
+  border-color: var(--dark-cyan);
+}
+
+.btn-outline-cyan {
+  color: var(--cyan);
+  background-color: var(--light);
+}
+
+.btn-cyan {
+  border-color: var(--dark-cyan);
+  color: var(--dark-cyan);
+  background-color: var(--cyan);
+}
+
+.left-cyan-border {
+  border-left: 7.5px solid var(--cyan);
+}
+
+.special-height {
+  height: 16.875rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.middle-text {
+  font-size: 40pt;
+}
+
+.pt-spec {
+  padding-top: 7.5rem;
+}
+
+li > p {
+  font-size: larger;
+}
+
+.circle-star {
+  font-size: 37.5pt;
+}
+
+/* .text-light {
+  color: var(--light)
+} */
