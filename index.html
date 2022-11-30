@@ -14,16 +14,16 @@
   <title>Site Clone Redo</title>
 </head>
 
-<body class="container-fluid bg-white">
-  <header class="row">
-    <di class="col-12 py-2 px-4 bg-cyan">
+<body class="container-fluid bg-white vw-100">
+  <header class="row sticky-top">
+    <div class="col-12 py-2 px-4 bg-cyan">
       <h1 class="m-0 text-light"><i class="mdi mdi-equalizer"></i> Lorem, ipsum</h1>
-    </di>
+    </div>
   </header>
   <main class="row">
     <div class="col-12 bg-image p-4">
       <section class="row">
-        <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-start">
           <h2 class="px-1 w-100">Subtle Heading</h2>
           <div class="bg-white p-3 rounded-3">
             <h3 class="text-cyan">Less Subtle Heading</h3>
@@ -60,7 +60,7 @@
             </form>
           </div>
         </div>
-        <div class="col-8 d-flex justify-content-center align-items-start pt-5 ps-5">
+        <div class="col-8 justify-content-center align-items-start pt-5 ps-5 text-over-img">
           <div class="left-cyan-border ps-4 py-2 text-light">
             <h2>TEXT OVER AN IMAGE</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum provident. Rem reprehenderit pariatur error velit obcaecati. Corporis, voluptas aspernatur.</p>
@@ -68,13 +68,13 @@
         </div>
       </section>
     </div>
-    <div class="col-12 bg-cyan p-5 special-height overflow-visible">
+    <div class="col-12 bg-cyan p-5 specialer-height overflow-visible">
       <section class="row h-100 align-items-start">
-        <div class="col-6 text-light pe-5">
+        <div class="col-12 col-md-7 text-light pe-5 other">
           <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas temporibus assumenda voluptates? Consequuntur illum, amet a eaque magnam possimus neque facere alias, perferendis vel fugit vero iure earum reiciendis voluptatem.</p>
+          <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas temporibus assumenda voluptates? Consequuntur illum, amet a eaque magnam possimus neque facere alias, perferendis vel fugit vero iure earum reiciendis voluptatem.</p>
         </div>
-        <div class="col-6 special-height">
+        <div class="col-12 col-md-5 special-height">
           <div class="bg-light p-3">
             <ul class="m-0 fs-5 px-1 py-2">
               <li class="mb-3">
@@ -114,10 +114,10 @@
     </div>
     <div class="col-12 px-4 py-5">
       <section class="row">
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <img src="./Img/Placeholder_Image.png" alt="Placeholder_Image" class="img-fluid w-100">
         </div>
-        <div class="col-8 pt-spec px-4 pb-3 d-flex flex-column justify-content-between">
+        <div class="col-12 col-md-8 pt-spec px-4 pb-3 d-flex flex-column justify-content-between next">
           <div>
             <h2 class="mt-4 middle-text text-justify mb-2"><i class="mdi m-0 text-cyan mdi-shield-check"></i> Lorem ipsum dolor sit amet</h2> 
             <h2 class="middle-text text-justify mb-2">consectetur adipisicing elit. Illo.</h2>
@@ -133,9 +133,9 @@
         </div>
       </section>
     </div>
-    <div class="col-12 bg-light p-4">
-      <section class="row p-3">
-        <div class="col-4 p-3">
+    <div class="col-12 bg-light p-4 next">
+      <section class="row p-3 next">
+        <div class="col-12 col-sm-4 p-3">
           <div class="bg-white rounded-2 p-3 py-4">
             <p class="fw-bold fs-4 m-0 ps-2">“</p>
             <p class="fs-5 m-0 px-4 text-center">
@@ -147,7 +147,7 @@
             </p>
           </div>
         </div>
-        <div class="col-4 p-3">
+        <div class="col-12 col-sm-4 p-3 print">
           <div class="bg-white rounded-2 p-3 py-4">
             <p class="m-0 text-cyan circle-star text-center"><i class="mdi mdi-star-circle"></i> <i class="mdi mdi-star-circle"></i> <i class="mdi mdi-star-circle"></i></p>
             <p class="fw-bold fs-4 m-0 ps-2">“</p>
@@ -160,7 +160,7 @@
             </p>
           </div>
         </div>
-        <div class="col-4 p-3">
+        <div class="col-12 col-sm-4 p-3">
           <div class="bg-white rounded-2 p-3 py-4">
             <p class="fw-bold fs-4 m-0 ps-2">“</p>
             <p class="fs-5 m-0 px-4 text-center">
@@ -177,9 +177,11 @@
   </main>
   <footer class="row">
     <div class="col-12 bg-cyan text-light p-5">
-      <h2>Lorem ipsum dolor sit.</h2> 
-      <!-- fix text size and padding -->
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores animi dignissimos delectus?</p>
+      <h2 class="fs-1">Lorem ipsum dolor sit amet.</h2> 
+      <p class="fs-5 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores animi dignissimos delectus?</p>
+    </div>
+    <div class="col-12 bg-light text-cyan p-5 pt-4">
+      <p class="fs-5 mb-0 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores animi dignissimos delectus?</p>
     </div>
     <!-- add extra footer -->
   </footer>

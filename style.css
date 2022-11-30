@@ -57,6 +57,10 @@
   height: 16.875rem;
 }
 
+.specialer-height {
+  height: 16.875rem;
+}
+
 ul {
   list-style: none;
 }
@@ -75,6 +79,38 @@ li > p {
 
 .circle-star {
   font-size: 37.5pt;
+}
+
+.text-over-img {
+  display: flex;
+}
+
+@media screen AND (max-width: 768px) {
+  .text-over-img {
+    display: none;
+  }
+
+  .special-height {
+    height: auto;
+    order: 0;
+    margin-bottom: 1.25rem;
+  }
+
+  .other {
+    order: 1;
+  }
+
+  .specialer-height {
+    height: min-content;
+  }
+
+  .next {
+    padding: 0 1rem 0 1rem !important;
+  }
+
+  .print {
+    order: -1;
+  }
 }
 
 /* .text-light {
